@@ -9,13 +9,12 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * Destinations available for a product.
- * Destinations are used in Merchant Center to allow you to control where the
- * products from your data feed should be displayed.
+ * [Channel](https://support.google.com/merchants/answer/7361332) of a product.
+ * Channel is used to distinguish between online and local products.
  *
- * Generated from protobuf message <code>google.shopping.type.Destination</code>
+ * Generated from protobuf message <code>google.shopping.type.Channel</code>
  */
-class Destination extends \Google\Protobuf\Internal\Message
+class Channel extends \Google\Protobuf\Internal\Message
 {
 
     /**
